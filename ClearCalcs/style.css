@@ -1,0 +1,52 @@
+button,
+input,
+textarea {
+  font-size: inherit;
+}
+
+body {
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0 0 4rem;
+}
+
+
+.clickme {
+ background-color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.confirm-dialog {
+  max-width: 45em;
+  padding: 2rem;
+  width: 90vw;
+  background-color: white;
+}
+
+.confirm-dialog-question {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.confirm-dialog-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 1rem -1rem -1rem;
+}
+
+.confirm-dialog-button {
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 0 1rem;
+}
